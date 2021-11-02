@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Listado de Categorias</title>
+    <script src="js/guardarCategory.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <a href="index.html" class="mt-3">Mostrar Categorías</a>
+        <div class="jumbotron mt-3">
+
+            <h1 class="text-center">Registro de Categorías</h1>
+
+            <div id="alerta" class="alert alert-info alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Mensaje</strong>
+                <p id="mensaje"></p>
+            </div>
+
+            <label>Id Categoría</label>
+            <input type="text" id="id" class="form-control mb-3">
+            <label>Nombre de la Categoría</label>
+            <input type="text" id="name" class="form-control mb-3">
+            <label>Descripción de la Categoría</label>
+            <input type="text" id="description" class="form-control mb-3">
+            <div>
+                <button id="guardarCategory" class="btn btn-primary btn-block">Guardar</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
